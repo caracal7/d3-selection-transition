@@ -1,0 +1,15 @@
+{
+  "name": "d3-selection-transition",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rollup -c -f umd -n d3 -o dist/d3.js -- index.js"
+  },
+  "devDependencies": {
+    "rollup": "0.41",
+    "rollup-plugin-node-resolve": "2"
+  },
+  "dependencies": {
+    "d3-selection": "^3.0.0",
+    "d3-transition": "^3.0.1"
+  }
+}
